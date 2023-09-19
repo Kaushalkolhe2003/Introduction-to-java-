@@ -1,0 +1,113 @@
+package variables;
+
+public class maxi {
+	public static void main(String[] args) {
+		/*
+		int maxRange=Integer.MAX_VALUE;
+		int minRange=Integer.MIN_VALUE;
+		System.out.println(maxRange);
+		System.out.println(minRange);
+		int sum1=maxRange+1;
+		int sum2=minRange-1;
+		System.out.println(sum1);
+		System.out.println(sum2);
+		byte maxran =Byte.MAX_VALUE;
+		byte minran = Byte.MIN_VALUE;
+		System.out.println("value is "+maxran);
+		System.out.println("value is "+minran);
+        
+		short maxVal =Short.MAX_VALUE;
+		short minVal = Short.MIN_VALUE;
+		System.out.println(maxVal);
+		System.out.println(minVal);
+		 short newval= (short)(maxVal/2);
+		 System.out.println(newval);
+*/
+		//Challenge;;;
+		/*
+		int number1 = 10;
+        byte number2 = 15 ;
+        short number3 =5 ;
+        
+        long longSum =1000*(number1+number2+number3);
+        System.out.println(longSum);
+        
+        short shortsum = (short) (1000*(number1+number2+number3));
+        System.out.println(shortsum);
+        */
+		/*
+		float maxi=Float.MAX_VALUE;
+		float mini=Float.MIN_VALUE;
+		System.out.println(maxi+" "+mini);
+		
+		double doubleMaxValue =Double.MAX_VALUE;
+        double doubleMinValue = Double.MIN_VALUE;
+        System.out.println(doubleMaxValue);
+        System.out.println(doubleMinValue);
+        */
+		
+	/*question:Calculate the quantity of petrol and diesel in 
+	a budget of 1546.12 Rs according to respective prices 84.11, 74.91 */
+
+		/*
+		float petrol_quantity, diesel_quantity;
+        Double petrol_quantity1, diesel_quantity1;
+        float petrol_prices = 74.91f;
+        float diesel_prices = 84.11f;
+        float wallet_balance = 1546.12f;
+        petrol_quantity = wallet_balance / petrol_prices;
+        diesel_quantity = wallet_balance / diesel_prices;
+        Double petrol_prices1 = 74.91;
+        Double diesel_prices1 = 84.11;
+        Double wallet_balance1 = 1546.12;
+        petrol_quantity1 = wallet_balance1 / petrol_prices1;
+        diesel_quantity1 = wallet_balance1 / diesel_prices1;
+
+        System.out.println ("The quantity of petrol that we can buy in " +wallet_balance + " is " + petrol_quantity);
+        System.out.println ("The quantity of petrol that we can buy in " +wallet_balance + " is " + diesel_quantity);
+        System.out.println ("The quantity of petrol that we can buy in " +wallet_balance1 + " is " + petrol_quantity1);
+        System.out.println ("The quantity of petrol that we can buy in " +wallet_balance1 + " is " + diesel_quantity1);
+		*/
+		
+		
+		//Characters
+		 /*char abc = 'k';
+		System.out.println(abc);
+		*/
+		
+		/* int 32 bits
+		 * byte 8 bits
+		 * short 16 bits
+		 * long 64 bits
+		 * float 32 bits
+		 * double 64 bit
+		 * char 16 bit
+		 * boolean 1 bit
+		 */
+		
+		
+		 String myName = "My Name is Manish";
+	       String myAge = "My Age is 27 years";
+	       String myPlace ="I am form India";
+	       System.out.println(myAge);
+	       System.out.println(myName);
+	       System.out.println(myPlace);
+	       
+	       String myInfo = myName +myAge +myPlace;
+	       System.out.println(myInfo);
+	       System.out.println(myName +"  " +myAge +"  "+ myPlace);
+	       
+	       int myInt =100;
+	       myAge =myAge+myInt;
+	       System.out.println(myAge);
+	       String myInt1 ="100";
+	       String myInt2 ="200";
+	       int myInt3 =300;
+	       double myDouble = 543.1234;
+	       System.out.println(myInt1+myInt2+myInt3+myDouble);
+		
+		
+		
+		
+	}
+}
