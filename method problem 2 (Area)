@@ -1,0 +1,32 @@
+package method_overload;
+import java.util.*;
+public class area_circle_rect {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		double radius =sc.nextDouble();
+		double len=sc.nextDouble();
+		double breadth=sc.nextDouble();
+		double ans =Area(radius);
+		double output=Area(len,breadth);
+		System.out.println("The area of circle is "+(ans)+" and Area of rect is "+(output));
+
+	}
+	public static double Area(double r) {
+		if(r>=0) {
+			return ( Math.PI*r*r);
+		}
+		else {
+			return -1;
+		}
+	}
+	public static double Area(double l, double b) {
+		if(l>=0 && b>=0) {
+			return (l*b);
+		}
+		else {
+			return -1;
+		}
+	}
+
+}
